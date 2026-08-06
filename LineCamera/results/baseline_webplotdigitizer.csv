@@ -1,0 +1,9 @@
+file,plot_id,ground_truth_class,ground_truth_equation,x_min,x_max,y_min,y_max,n_points,y_obs_min,y_obs_max,axis_calibration_ok,best_model,class_correct,equation,rmse,r2,line_rmse,line_equation,m_fitted,b_fitted,m_pct_error,b_abs_error,A_pct_error,omega_pct_error,a_pct_error,operator,session,notes
+line1.jpg,line1,LINE,y = 10x + 1,0,1,0,11,10,1.291,10.9193,yes,LINE,yes,y = 9.99 x + 1.029,0.0119346,1.0000,0.0119346,y = 9.99 x + 1.029,9.98993,1.02874,0.100722,0.0287392,,,,PMW,1,
+line2.jpg,line2,LINE,y = 5x + 1.5,0,1,0,6.5,10,1.6528,6.3093,yes,QUADRATIC,no,y = 0.04739 x^2 + 4.938 x + 1.523,0.00608832,1.0000,0.00711598,y = 4.984 x + 1.516,4.98391,1.51575,0.321861,0.0157508,,,,PMW,1,
+line3.jpg,line3,LINE,y = 2x + 3,0,1,0,5,10,3.0366,4.9756,yes,LINE,yes,y = 1.988 x + 3.003,0.00561108,0.9999,0.00561108,y = 1.988 x + 3.003,1.98809,3.00312,0.595433,0.00312244,,,,PMW,1,
+quadratic1.jpg,quadratic1,QUADRATIC,y = x^2 + 2x + 3,0,1,3,6,11,3.0501,5.9284,yes,QUADRATIC,yes,y = 1.004 x^2 + 1.996 x + 3.001,0.00238382,1.0000,0.0814716,y = 3.018 x + 2.836,,,,,,,0.443047,PMW,1,
+quadratic2.jpg,quadratic2,QUADRATIC,y = 5x^2 + 8x + 13,0,1,12,26,10,13.2029,25.9332,yes,QUADRATIC,yes,y = 4.981 x^2 + 8.015 x + 13,0.0186262,1.0000,0.427856,y = 13.1 x + 12.21,,,,,,,0.380749,PMW,1,
+sinusoid1.jpg,sinusoid1,SINUSOID,y = 2 sin(5x + 0),0,1,-2,2,10,0.0157,6.5,no,SINUSOID,yes,y = 3.241 sin(5.019 x + -0.007556) + 3.27,0.0100463,1.0000,1.49947,y = -5.85 x + 6.322,,,,,62.0598,0.387691,,PMW,1,"y_obs=[0.016,6.5] vs GT y=[-2,2]"
+sinusoid2.jpg,sinusoid2,SINUSOID,y = 3 sin(9x - 4),0,1,-3,3,12,0.0,2.9928,yes,SINUSOID,yes,y = 1.495 sin(9.058 x + 2.261) + 1.496,0.0188109,0.9996,0.937147,y = -0.8669 x + 1.429,,,,,50.153,0.640532,,PMW,1,
+sinusoid3.jpg,sinusoid3,SINUSOID,y = 2.3 sin(3x + 7),0,1,-1.5,2.5,10,-1.0513,2.2995,yes,SINUSOID,yes,y = 2.024 sin(3.358 x + 0.5989) + 0.3135,0.0321181,0.9992,0.549089,y = -3.378 x + 2.839,,,,,11.9817,11.9338,,PMW,1,

@@ -1,0 +1,120 @@
+{
+  "method": "naive_hough_longest_segment",
+  "classification_correct": "3/8",
+  "note": "Always reports LINE; fails class on sinusoids/quadratics",
+  "results": [
+    {
+      "file": "line1.jpg",
+      "ground_truth_class": "LINE",
+      "hough_detected_class": "LINE",
+      "class_correct": true,
+      "equation": "y = 9.929 x + 0.9818",
+      "param_errors": {
+        "m_pct": 0.712732948995427,
+        "b_abs": 0.01821455248893966
+      },
+      "params": {
+        "m": 9.928726705100457,
+        "b": 0.9817854475110603
+      },
+      "seg_length": 6.80880427712955
+    },
+    {
+      "file": "line2.jpg",
+      "ground_truth_class": "LINE",
+      "hough_detected_class": "LINE",
+      "class_correct": true,
+      "equation": "y = 5.007 x + 1.469",
+      "param_errors": {
+        "m_pct": 0.1382584685837429,
+        "b_abs": 0.03138258468583732
+      },
+      "params": {
+        "m": 5.006912923429187,
+        "b": 1.4686174153141627
+      },
+      "seg_length": 4.953982771646748
+    },
+    {
+      "file": "line3.jpg",
+      "ground_truth_class": "LINE",
+      "hough_detected_class": "LINE",
+      "class_correct": true,
+      "equation": "y = 2.022 x + 3.015",
+      "param_errors": {
+        "m_pct": 1.1165770887931803,
+        "b_abs": 0.015368897970061468
+      },
+      "params": {
+        "m": 2.0223315417758636,
+        "b": 3.0153688979700615
+      },
+      "seg_length": 1.3275118493431022
+    },
+    {
+      "file": "sinusoid1.jpg",
+      "ground_truth_class": "SINUSOID",
+      "hough_detected_class": "LINE",
+      "class_correct": false,
+      "equation": "y = 9.198 x + -0.01308",
+      "param_errors": {},
+      "params": {
+        "m": 9.19778046368531,
+        "b": -0.013075486210306603
+      },
+      "seg_length": 1.1003921901921005
+    },
+    {
+      "file": "sinusoid2.jpg",
+      "ground_truth_class": "SINUSOID",
+      "hough_detected_class": "LINE",
+      "class_correct": false,
+      "equation": "y = 25.91 x + -11.58",
+      "param_errors": {},
+      "params": {
+        "m": 25.91351774530271,
+        "b": -11.582724425887262
+      },
+      "seg_length": 3.2466736170397326
+    },
+    {
+      "file": "sinusoid3.jpg",
+      "ground_truth_class": "SINUSOID",
+      "hough_detected_class": "LINE",
+      "class_correct": false,
+      "equation": "y = -6.8 x + 5.521",
+      "param_errors": {},
+      "params": {
+        "m": -6.800295330719485,
+        "b": 5.520724069453636
+      },
+      "seg_length": 1.7640723647541294
+    },
+    {
+      "file": "quadratic1.jpg",
+      "ground_truth_class": "QUADRATIC",
+      "hough_detected_class": "LINE",
+      "class_correct": false,
+      "equation": "y = 3.608 x + 2.344",
+      "param_errors": {},
+      "params": {
+        "m": 3.607515657620041,
+        "b": 2.344055985180394
+      },
+      "seg_length": 0.8319000776883984
+    },
+    {
+      "file": "quadratic2.jpg",
+      "ground_truth_class": "QUADRATIC",
+      "hough_detected_class": "LINE",
+      "class_correct": false,
+      "equation": "y = 16.84 x + 9.052",
+      "param_errors": {},
+      "params": {
+        "m": 16.837065856898846,
+        "b": 9.052223698361482
+      },
+      "seg_length": 3.484208396259477
+    }
+  ]
+}

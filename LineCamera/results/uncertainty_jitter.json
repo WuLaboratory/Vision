@@ -1,0 +1,430 @@
+{
+  "samples": 200,
+  "sigma_px_values": [
+    1.0,
+    2.0,
+    3.0
+  ],
+  "results": [
+    {
+      "file": "line1.jpg",
+      "ground_truth_class": "LINE",
+      "sigma_px": 1.0,
+      "samples_requested": 200,
+      "samples_valid": 200,
+      "class_accuracy_pct": 100.0,
+      "class_mode": "LINE",
+      "slope_m": {
+        "mean": 9.97215541051593,
+        "std": 0.01755277743926529,
+        "gt": 10,
+        "m_pct_error_mean": 0.27844589484070426,
+        "cv_pct": 0.17601788897869936
+      },
+      "intercept_b": {
+        "mean": 1.0162226012540303,
+        "std": 0.012313022628630878,
+        "gt": 1
+      },
+      "rmse": {
+        "mean": 0.04530385178914755,
+        "std": 0.0008767140705016021
+      }
+    },
+    {
+      "file": "line2.jpg",
+      "ground_truth_class": "LINE",
+      "sigma_px": 1.0,
+      "samples_requested": 200,
+      "samples_valid": 200,
+      "class_accuracy_pct": 100.0,
+      "class_mode": "LINE",
+      "slope_m": {
+        "mean": 4.985745923012274,
+        "std": 0.008441214950432745,
+        "gt": 5,
+        "m_pct_error_mean": 0.2850815397545148,
+        "cv_pct": 0.1693069619025583
+      },
+      "intercept_b": {
+        "mean": 1.506768719757382,
+        "std": 0.006154305897758101,
+        "gt": 1.5
+      },
+      "rmse": {
+        "mean": 0.025236380970785923,
+        "std": 0.0005598647001483504
+      }
+    },
+    {
+      "file": "line3.jpg",
+      "ground_truth_class": "LINE",
+      "sigma_px": 1.0,
+      "samples_requested": 200,
+      "samples_valid": 200,
+      "class_accuracy_pct": 100.0,
+      "class_mode": "LINE",
+      "slope_m": {
+        "mean": 2.00311087971148,
+        "std": 0.005499081437071733,
+        "gt": 2,
+        "m_pct_error_mean": 0.15554398557400262,
+        "cv_pct": 0.2745270615206183
+      },
+      "intercept_b": {
+        "mean": 2.998024023931823,
+        "std": 0.003822696287595441,
+        "gt": 3
+      },
+      "rmse": {
+        "mean": 0.017421007096928988,
+        "std": 0.0004259333747284363
+      }
+    },
+    {
+      "file": "sinusoid1.jpg",
+      "ground_truth_class": "SINUSOID",
+      "sigma_px": 1.0,
+      "samples_requested": 200,
+      "samples_valid": 200,
+      "class_accuracy_pct": 100.0,
+      "class_mode": "SINUSOID",
+      "rmse": {
+        "mean": 0.04734723927126544,
+        "std": 0.0008114249437485748
+      }
+    },
+    {
+      "file": "sinusoid2.jpg",
+      "ground_truth_class": "SINUSOID",
+      "sigma_px": 1.0,
+      "samples_requested": 200,
+      "samples_valid": 200,
+      "class_accuracy_pct": 100.0,
+      "class_mode": "SINUSOID",
+      "rmse": {
+        "mean": 0.07998763124056124,
+        "std": 0.0015813051721835349
+      }
+    },
+    {
+      "file": "sinusoid3.jpg",
+      "ground_truth_class": "SINUSOID",
+      "sigma_px": 1.0,
+      "samples_requested": 200,
+      "samples_valid": 200,
+      "class_accuracy_pct": 100.0,
+      "class_mode": "SINUSOID",
+      "rmse": {
+        "mean": 0.025666078703640988,
+        "std": 0.00033051873538937697
+      }
+    },
+    {
+      "file": "quadratic1.jpg",
+      "ground_truth_class": "QUADRATIC",
+      "sigma_px": 1.0,
+      "samples_requested": 200,
+      "samples_valid": 200,
+      "class_accuracy_pct": 100.0,
+      "class_mode": "QUADRATIC",
+      "rmse": {
+        "mean": 0.012807178960978258,
+        "std": 0.00028611107800077465
+      }
+    },
+    {
+      "file": "quadratic2.jpg",
+      "ground_truth_class": "QUADRATIC",
+      "sigma_px": 1.0,
+      "samples_requested": 200,
+      "samples_valid": 200,
+      "class_accuracy_pct": 100.0,
+      "class_mode": "QUADRATIC",
+      "rmse": {
+        "mean": 0.05812865116528863,
+        "std": 0.0013138397659397218
+      }
+    },
+    {
+      "file": "line1.jpg",
+      "ground_truth_class": "LINE",
+      "sigma_px": 2.0,
+      "samples_requested": 200,
+      "samples_valid": 200,
+      "class_accuracy_pct": 100.0,
+      "class_mode": "LINE",
+      "slope_m": {
+        "mean": 9.97190775006038,
+        "std": 0.03148012476241165,
+        "gt": 10,
+        "m_pct_error_mean": 0.2809224993962012,
+        "cv_pct": 0.3156880864869718
+      },
+      "intercept_b": {
+        "mean": 1.0175443306417076,
+        "std": 0.022444182633601956,
+        "gt": 1
+      },
+      "rmse": {
+        "mean": 0.04540009569677021,
+        "std": 0.0009195409447844351
+      }
+    },
+    {
+      "file": "line2.jpg",
+      "ground_truth_class": "LINE",
+      "sigma_px": 2.0,
+      "samples_requested": 200,
+      "samples_valid": 200,
+      "class_accuracy_pct": 100.0,
+      "class_mode": "LINE",
+      "slope_m": {
+        "mean": 4.985422972319024,
+        "std": 0.017681980577480962,
+        "gt": 5,
+        "m_pct_error_mean": 0.2915405536195159,
+        "cv_pct": 0.3546736290111809
+      },
+      "intercept_b": {
+        "mean": 1.507802444741516,
+        "std": 0.012452620187175427,
+        "gt": 1.5
+      },
+      "rmse": {
+        "mean": 0.025344392326344566,
+        "std": 0.0005484095233296246
+      }
+    },
+    {
+      "file": "line3.jpg",
+      "ground_truth_class": "LINE",
+      "sigma_px": 2.0,
+      "samples_requested": 200,
+      "samples_valid": 200,
+      "class_accuracy_pct": 100.0,
+      "class_mode": "LINE",
+      "slope_m": {
+        "mean": 2.0024037407485764,
+        "std": 0.01105258807109046,
+        "gt": 2,
+        "m_pct_error_mean": 0.12018703742882053,
+        "cv_pct": 0.5519660119571378
+      },
+      "intercept_b": {
+        "mean": 2.9986519823555695,
+        "std": 0.007426836775884616,
+        "gt": 3
+      },
+      "rmse": {
+        "mean": 0.017505614563623272,
+        "std": 0.00038897087919185515
+      }
+    },
+    {
+      "file": "sinusoid1.jpg",
+      "ground_truth_class": "SINUSOID",
+      "sigma_px": 2.0,
+      "samples_requested": 200,
+      "samples_valid": 200,
+      "class_accuracy_pct": 100.0,
+      "class_mode": "SINUSOID",
+      "rmse": {
+        "mean": 0.047236681475273753,
+        "std": 0.001331287930189533
+      }
+    },
+    {
+      "file": "sinusoid2.jpg",
+      "ground_truth_class": "SINUSOID",
+      "sigma_px": 2.0,
+      "samples_requested": 200,
+      "samples_valid": 200,
+      "class_accuracy_pct": 100.0,
+      "class_mode": "SINUSOID",
+      "rmse": {
+        "mean": 0.07980199889725102,
+        "std": 0.0019286733841470114
+      }
+    },
+    {
+      "file": "sinusoid3.jpg",
+      "ground_truth_class": "SINUSOID",
+      "sigma_px": 2.0,
+      "samples_requested": 200,
+      "samples_valid": 200,
+      "class_accuracy_pct": 100.0,
+      "class_mode": "SINUSOID",
+      "rmse": {
+        "mean": 0.025655986434802713,
+        "std": 0.0004530732850772224
+      }
+    },
+    {
+      "file": "quadratic1.jpg",
+      "ground_truth_class": "QUADRATIC",
+      "sigma_px": 2.0,
+      "samples_requested": 200,
+      "samples_valid": 200,
+      "class_accuracy_pct": 100.0,
+      "class_mode": "QUADRATIC",
+      "rmse": {
+        "mean": 0.012895401580363626,
+        "std": 0.00020672939876633322
+      }
+    },
+    {
+      "file": "quadratic2.jpg",
+      "ground_truth_class": "QUADRATIC",
+      "sigma_px": 2.0,
+      "samples_requested": 200,
+      "samples_valid": 200,
+      "class_accuracy_pct": 100.0,
+      "class_mode": "QUADRATIC",
+      "rmse": {
+        "mean": 0.05849520447756527,
+        "std": 0.0010679654887866244
+      }
+    },
+    {
+      "file": "line1.jpg",
+      "ground_truth_class": "LINE",
+      "sigma_px": 3.0,
+      "samples_requested": 200,
+      "samples_valid": 200,
+      "class_accuracy_pct": 100.0,
+      "class_mode": "LINE",
+      "slope_m": {
+        "mean": 9.971899983641144,
+        "std": 0.050331555158129926,
+        "gt": 10,
+        "m_pct_error_mean": 0.2810001635885584,
+        "cv_pct": 0.5047338545382386
+      },
+      "intercept_b": {
+        "mean": 1.0179575422595135,
+        "std": 0.03417859638194206,
+        "gt": 1
+      },
+      "rmse": {
+        "mean": 0.045153933680055054,
+        "std": 0.0009393607526623249
+      }
+    },
+    {
+      "file": "line2.jpg",
+      "ground_truth_class": "LINE",
+      "sigma_px": 3.0,
+      "samples_requested": 200,
+      "samples_valid": 200,
+      "class_accuracy_pct": 100.0,
+      "class_mode": "LINE",
+      "slope_m": {
+        "mean": 4.9870167576891085,
+        "std": 0.02666771974797531,
+        "gt": 5,
+        "m_pct_error_mean": 0.2596648462178308,
+        "cv_pct": 0.5347429343777188
+      },
+      "intercept_b": {
+        "mean": 1.5060747624093873,
+        "std": 0.017134041387447695,
+        "gt": 1.5
+      },
+      "rmse": {
+        "mean": 0.025171181840317775,
+        "std": 0.0005946201973931569
+      }
+    },
+    {
+      "file": "line3.jpg",
+      "ground_truth_class": "LINE",
+      "sigma_px": 3.0,
+      "samples_requested": 200,
+      "samples_valid": 200,
+      "class_accuracy_pct": 100.0,
+      "class_mode": "LINE",
+      "slope_m": {
+        "mean": 2.0037969914183593,
+        "std": 0.016136070731963072,
+        "gt": 2,
+        "m_pct_error_mean": 0.18984957091796595,
+        "cv_pct": 0.8052747259861581
+      },
+      "intercept_b": {
+        "mean": 2.997284382395003,
+        "std": 0.01119813131027201,
+        "gt": 3
+      },
+      "rmse": {
+        "mean": 0.01748894191137342,
+        "std": 0.0004548050497503566
+      }
+    },
+    {
+      "file": "sinusoid1.jpg",
+      "ground_truth_class": "SINUSOID",
+      "sigma_px": 3.0,
+      "samples_requested": 200,
+      "samples_valid": 200,
+      "class_accuracy_pct": 100.0,
+      "class_mode": "SINUSOID",
+      "rmse": {
+        "mean": 0.0471571045953608,
+        "std": 0.0021673230716705814
+      }
+    },
+    {
+      "file": "sinusoid2.jpg",
+      "ground_truth_class": "SINUSOID",
+      "sigma_px": 3.0,
+      "samples_requested": 200,
+      "samples_valid": 200,
+      "class_accuracy_pct": 100.0,
+      "class_mode": "SINUSOID",
+      "rmse": {
+        "mean": 0.07972286430876399,
+        "std": 0.0023541300373215905
+      }
+    },
+    {
+      "file": "sinusoid3.jpg",
+      "ground_truth_class": "SINUSOID",
+      "sigma_px": 3.0,
+      "samples_requested": 200,
+      "samples_valid": 200,
+      "class_accuracy_pct": 100.0,
+      "class_mode": "SINUSOID",
+      "rmse": {
+        "mean": 0.025682496134430348,
+        "std": 0.0006268616256741523
+      }
+    },
+    {
+      "file": "quadratic1.jpg",
+      "ground_truth_class": "QUADRATIC",
+      "sigma_px": 3.0,
+      "samples_requested": 200,
+      "samples_valid": 200,
+      "class_accuracy_pct": 100.0,
+      "class_mode": "QUADRATIC",
+      "rmse": {
+        "mean": 0.012802558074815588,
+        "std": 0.00023147444127905481
+      }
+    },
+    {
+      "file": "quadratic2.jpg",
+      "ground_truth_class": "QUADRATIC",
+      "sigma_px": 3.0,
+      "samples_requested": 200,
+      "samples_valid": 200,
+      "class_accuracy_pct": 100.0,
+      "class_mode": "QUADRATIC",
+      "rmse": {
+        "mean": 0.05824991404165655,
+        "std": 0.001202870162375684
+      }
+    }
+  ]
+}

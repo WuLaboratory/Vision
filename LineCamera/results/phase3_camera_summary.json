@@ -1,0 +1,255 @@
+{
+  "qc_arc_threshold": 100.0,
+  "total_trials": 295,
+  "overall": {
+    "n": 295,
+    "correct": 213,
+    "accuracy_pct": 72.2
+  },
+  "qc_arc_lt_100": {
+    "n": 210,
+    "correct": 182,
+    "accuracy_pct": 86.67
+  },
+  "qc_arc_15_75": {
+    "n": 176,
+    "correct": 150,
+    "accuracy_pct": 85.23
+  },
+  "pilot_first_28": {
+    "n": 28,
+    "correct": 23,
+    "accuracy_pct": 82.14
+  },
+  "extended_after_pilot": {
+    "n": 267,
+    "correct": 190,
+    "accuracy_pct": 71.16
+  },
+  "misclassified": {
+    "n": 82,
+    "fraction_with_arc_gt_threshold": 65.9
+  },
+  "per_plot_all": {
+    "line1": {
+      "n": 15,
+      "correct": 9,
+      "accuracy_pct": 60.0,
+      "ground_truth": "y = 10x + 1",
+      "expected_class": "LINE"
+    },
+    "line2": {
+      "n": 24,
+      "correct": 14,
+      "accuracy_pct": 58.33,
+      "ground_truth": "y = 5x + 1.5",
+      "expected_class": "LINE"
+    },
+    "line3": {
+      "n": 15,
+      "correct": 14,
+      "accuracy_pct": 93.33,
+      "ground_truth": "y = 2x + 3",
+      "expected_class": "LINE"
+    },
+    "quadratic1": {
+      "n": 54,
+      "correct": 44,
+      "accuracy_pct": 81.48,
+      "ground_truth": "y = x^2 + 2x + 3",
+      "expected_class": "QUADRATIC"
+    },
+    "quadratic2": {
+      "n": 63,
+      "correct": 55,
+      "accuracy_pct": 87.3,
+      "ground_truth": "y = 5x^2 + 8x + 13",
+      "expected_class": "QUADRATIC"
+    },
+    "sinusoid1": {
+      "n": 23,
+      "correct": 14,
+      "accuracy_pct": 60.87,
+      "ground_truth": "y = 2 sin(5x)",
+      "expected_class": "SINUSOID"
+    },
+    "sinusoid2": {
+      "n": 35,
+      "correct": 25,
+      "accuracy_pct": 71.43,
+      "ground_truth": "y = 3 sin(9x - 4)",
+      "expected_class": "SINUSOID"
+    },
+    "sinusoid3": {
+      "n": 66,
+      "correct": 38,
+      "accuracy_pct": 57.58,
+      "ground_truth": "y = 2.3 sin(3x + 7)",
+      "expected_class": "SINUSOID"
+    }
+  },
+  "per_plot_qc": {
+    "line1": {
+      "n": 5,
+      "correct": 0,
+      "accuracy_pct": 0.0,
+      "ground_truth": "y = 10x + 1",
+      "expected_class": "LINE"
+    },
+    "line2": {
+      "n": 13,
+      "correct": 3,
+      "accuracy_pct": 23.08,
+      "ground_truth": "y = 5x + 1.5",
+      "expected_class": "LINE"
+    },
+    "line3": {
+      "n": 6,
+      "correct": 5,
+      "accuracy_pct": 83.33,
+      "ground_truth": "y = 2x + 3",
+      "expected_class": "LINE"
+    },
+    "quadratic1": {
+      "n": 44,
+      "correct": 44,
+      "accuracy_pct": 100.0,
+      "ground_truth": "y = x^2 + 2x + 3",
+      "expected_class": "QUADRATIC"
+    },
+    "quadratic2": {
+      "n": 55,
+      "correct": 55,
+      "accuracy_pct": 100.0,
+      "ground_truth": "y = 5x^2 + 8x + 13",
+      "expected_class": "QUADRATIC"
+    },
+    "sinusoid1": {
+      "n": 13,
+      "correct": 13,
+      "accuracy_pct": 100.0,
+      "ground_truth": "y = 2 sin(5x)",
+      "expected_class": "SINUSOID"
+    },
+    "sinusoid2": {
+      "n": 25,
+      "correct": 24,
+      "accuracy_pct": 96.0,
+      "ground_truth": "y = 3 sin(9x - 4)",
+      "expected_class": "SINUSOID"
+    },
+    "sinusoid3": {
+      "n": 49,
+      "correct": 38,
+      "accuracy_pct": 77.55,
+      "ground_truth": "y = 2.3 sin(3x + 7)",
+      "expected_class": "SINUSOID"
+    }
+  },
+  "arc_threshold_curve": [
+    {
+      "threshold": 25,
+      "label": "<25",
+      "n": 109,
+      "correct": 99,
+      "accuracy_pct": 90.83
+    },
+    {
+      "threshold": 50,
+      "label": "<50",
+      "n": 138,
+      "correct": 113,
+      "accuracy_pct": 81.88
+    },
+    {
+      "threshold": 75,
+      "label": "<75",
+      "n": 204,
+      "correct": 176,
+      "accuracy_pct": 86.27
+    },
+    {
+      "threshold": 100,
+      "label": "<100",
+      "n": 210,
+      "correct": 182,
+      "accuracy_pct": 86.67
+    },
+    {
+      "threshold": 125,
+      "label": "<125",
+      "n": 210,
+      "correct": 182,
+      "accuracy_pct": 86.67
+    },
+    {
+      "threshold": 150,
+      "label": "<150",
+      "n": 210,
+      "correct": 182,
+      "accuracy_pct": 86.67
+    },
+    {
+      "threshold": 200,
+      "label": "<200",
+      "n": 210,
+      "correct": 182,
+      "accuracy_pct": 86.67
+    },
+    {
+      "threshold": 300,
+      "label": "<300",
+      "n": 211,
+      "correct": 182,
+      "accuracy_pct": 86.26
+    },
+    {
+      "threshold": 500,
+      "label": "<500",
+      "n": 223,
+      "correct": 186,
+      "accuracy_pct": 83.41
+    },
+    {
+      "threshold": null,
+      "label": "all",
+      "n": 295,
+      "correct": 213,
+      "accuracy_pct": 72.2
+    }
+  ],
+  "confusion": [
+    {
+      "expected": "SINUSOID",
+      "detected": "LINE",
+      "count": 31
+    },
+    {
+      "expected": "QUADRATIC",
+      "detected": "LINE",
+      "count": 18
+    },
+    {
+      "expected": "LINE",
+      "detected": "QUADRATIC",
+      "count": 17
+    },
+    {
+      "expected": "SINUSOID",
+      "detected": "QUADRATIC",
+      "count": 16
+    }
+  ],
+  "line_slope_errors_qc": {
+    "line2": {
+      "n": 3,
+      "mean_pct": 1.798,
+      "sd_pct": 1.355
+    },
+    "line3": {
+      "n": 5,
+      "mean_pct": 3.728,
+      "sd_pct": 1.431
+    }
+  }
+}

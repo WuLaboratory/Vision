@@ -1,0 +1,453 @@
+[
+  {
+    "file": "line1.jpg",
+    "ground_truth_class": "LINE",
+    "ground_truth_equation": "y = 10x + 1",
+    "axes": {
+      "x_min": 0,
+      "x_max": 1,
+      "y_min": 0,
+      "y_max": 11
+    },
+    "quad_method": "auto_quad",
+    "detected_shape": "LINE",
+    "best_model": "line",
+    "equation": "y = 9.972 x + 1.016",
+    "rmse": 0.045140283831452264,
+    "r2": 0.9997430422531925,
+    "line_rmse": 0.045140283831452264,
+    "arc_length": 47.940724523441894,
+    "params_fitted": {
+      "m": 9.972435887679545,
+      "b": 1.0163756336872145
+    },
+    "class_correct": true,
+    "param_errors": {
+      "m_pct": 0.2756411232045508,
+      "b_abs": 0.016375633687214508
+    },
+    "seg_length": 9.771495347964397
+  },
+  {
+    "file": "line2.jpg",
+    "ground_truth_class": "LINE",
+    "ground_truth_equation": "y = 5x + 1.5",
+    "axes": {
+      "x_min": 0,
+      "x_max": 1,
+      "y_min": 0,
+      "y_max": 6.5
+    },
+    "quad_method": "auto_quad",
+    "detected_shape": "LINE",
+    "best_model": "line",
+    "equation": "y = 4.985 x + 1.507",
+    "rmse": 0.025110508669744677,
+    "r2": 0.9996808060139265,
+    "line_rmse": 0.025110508669744677,
+    "arc_length": 30.741705413868573,
+    "params_fitted": {
+      "m": 4.9853928357802495,
+      "b": 1.507161920924772
+    },
+    "class_correct": true,
+    "param_errors": {
+      "m_pct": 0.29214328439501003,
+      "b_abs": 0.0071619209247719695
+    },
+    "seg_length": 4.941465921342714
+  },
+  {
+    "file": "line3.jpg",
+    "ground_truth_class": "LINE",
+    "ground_truth_equation": "y = 2x + 3",
+    "axes": {
+      "x_min": 0,
+      "x_max": 1,
+      "y_min": 0,
+      "y_max": 5
+    },
+    "quad_method": "auto_quad",
+    "detected_shape": "LINE",
+    "best_model": "line",
+    "equation": "y = 2.003 x + 2.998",
+    "rmse": 0.017613830757486022,
+    "r2": 0.9989923968923167,
+    "line_rmse": 0.017613830757486022,
+    "arc_length": 21.062171034441494,
+    "params_fitted": {
+      "m": 2.0029776267967625,
+      "b": 2.9978250595052662
+    },
+    "class_correct": true,
+    "param_errors": {
+      "m_pct": 0.14888133983812502,
+      "b_abs": 0.002174940494733768
+    },
+    "seg_length": 2.1371303642968735
+  },
+  {
+    "file": "sinusoid1.jpg",
+    "ground_truth_class": "SINUSOID",
+    "ground_truth_equation": "y = 2 sin(5x + 0)",
+    "axes": {
+      "x_min": 0,
+      "x_max": 1,
+      "y_min": -2,
+      "y_max": 2
+    },
+    "quad_method": "auto_quad",
+    "detected_shape": "SINUSOID",
+    "best_model": "sinusoid",
+    "equation": "y = 1.822 sin(5.819 x + -0.5112) + 0.0003132",
+    "rmse": 0.04687635580357961,
+    "r2": 0.998415857605425,
+    "line_rmse": 0.11078856279847742,
+    "arc_length": 20.428564337769636,
+    "params_fitted": {
+      "A": 1.8224308850875268,
+      "omega": 5.818775958388051,
+      "phi": -0.5112014992409274,
+      "C": 0.00031321488777772766
+    },
+    "class_correct": true,
+    "param_errors": {
+      "A_pct": 8.87845574562366,
+      "omega_pct": 16.375519167761023,
+      "phi_rad": 0.5112014992409275
+    }
+  },
+  {
+    "file": "sinusoid2.jpg",
+    "ground_truth_class": "SINUSOID",
+    "ground_truth_equation": "y = 3 sin(9x - 4)",
+    "axes": {
+      "x_min": 0,
+      "x_max": 1,
+      "y_min": -3,
+      "y_max": 3
+    },
+    "quad_method": "auto_quad",
+    "detected_shape": "SINUSOID",
+    "best_model": "sinusoid",
+    "equation": "y = 2.711 sin(10.46 x + 1.139) + 0.004437",
+    "rmse": 0.07934487914838312,
+    "r2": 0.9978099439106078,
+    "line_rmse": 0.1585668712926777,
+    "arc_length": 36.62437056811899,
+    "params_fitted": {
+      "A": 2.710568155179368,
+      "omega": 10.45561305022853,
+      "phi": 1.138915779655003,
+      "C": 0.004437072054248148
+    },
+    "class_correct": true,
+    "param_errors": {
+      "A_pct": 9.647728160687736,
+      "omega_pct": 16.17347833587256,
+      "phi_rad": 1.1442695275245836
+    }
+  },
+  {
+    "file": "sinusoid3.jpg",
+    "ground_truth_class": "SINUSOID",
+    "ground_truth_equation": "y = 2.3 sin(3x + 7)",
+    "axes": {
+      "x_min": 0,
+      "x_max": 1,
+      "y_min": -1.5,
+      "y_max": 2.5
+    },
+    "quad_method": "auto_quad",
+    "detected_shape": "SINUSOID",
+    "best_model": "sinusoid",
+    "equation": "y = 2.112 sin(3.222 x + 0.6436) + 0.2029",
+    "rmse": 0.02542444725771314,
+    "r2": 0.999464911879863,
+    "line_rmse": 0.5074480839307791,
+    "arc_length": 15.402326718373505,
+    "params_fitted": {
+      "A": 2.111929836914264,
+      "omega": 3.222275610985357,
+      "phi": 0.6436111547678035,
+      "C": 0.2029467997243439
+    },
+    "class_correct": true,
+    "param_errors": {
+      "A_pct": 8.176963612423295,
+      "omega_pct": 7.40918703284524,
+      "phi_rad": 0.07320353805260993
+    }
+  },
+  {
+    "file": "quadratic1.jpg",
+    "ground_truth_class": "QUADRATIC",
+    "ground_truth_equation": "y = x^2 + 2x + 3",
+    "axes": {
+      "x_min": 0,
+      "x_max": 1,
+      "y_min": 3,
+      "y_max": 6
+    },
+    "quad_method": "auto_quad",
+    "detected_shape": "QUADRATIC",
+    "best_model": "quadratic",
+    "equation": "y = 0.9974 x^2 + 1.994 x + 3.006",
+    "rmse": 0.012507478752996801,
+    "r2": 0.9997818040674306,
+    "line_rmse": 0.0717477581652058,
+    "arc_length": 13.472172596218112,
+    "params_fitted": {
+      "a": 0.9973832988237198,
+      "b": 1.9942325294269678,
+      "c": 3.0058595958714673
+    },
+    "class_correct": true,
+    "param_errors": {
+      "a_pct": 0.26167011762802117,
+      "b_pct": 0.2883735286516087,
+      "c_pct": 0.1953198623822446
+    }
+  },
+  {
+    "file": "quadratic2.jpg",
+    "ground_truth_class": "QUADRATIC",
+    "ground_truth_equation": "y = 5x^2 + 8x + 13",
+    "axes": {
+      "x_min": 0,
+      "x_max": 1,
+      "y_min": 12,
+      "y_max": 26
+    },
+    "quad_method": "auto_quad",
+    "detected_shape": "QUADRATIC",
+    "best_model": "quadratic",
+    "equation": "y = 4.989 x^2 + 7.98 x + 13.02",
+    "rmse": 0.05727217771000904,
+    "r2": 0.9997584861680308,
+    "line_rmse": 0.36137702034825697,
+    "arc_length": 70.41634470960268,
+    "params_fitted": {
+      "a": 4.9891544883882855,
+      "b": 7.9801131260715445,
+      "c": 13.020679660426149
+    },
+    "class_correct": true,
+    "param_errors": {
+      "a_pct": 0.21691023223429085,
+      "b_pct": 0.24858592410569313,
+      "c_pct": 0.15907431097037517
+    }
+  },
+  {
+    "file": "line1a.jpg",
+    "ground_truth_class": "LINE",
+    "ground_truth_equation": "y = 10x + 1",
+    "axes": {
+      "x_min": 0,
+      "x_max": 1,
+      "y_min": 0,
+      "y_max": 11
+    },
+    "quad_method": "auto_quad",
+    "detected_shape": "LINE",
+    "best_model": "line",
+    "equation": "y = 9.972 x + 1.016",
+    "rmse": 0.045140283831452264,
+    "r2": 0.9997430422531925,
+    "line_rmse": 0.045140283831452264,
+    "arc_length": 47.940724523441894,
+    "params_fitted": {
+      "m": 9.972435887679545,
+      "b": 1.0163756336872145
+    },
+    "class_correct": true,
+    "param_errors": {
+      "m_pct": 0.2756411232045508,
+      "b_abs": 0.016375633687214508
+    },
+    "seg_length": 9.771495347964397
+  },
+  {
+    "file": "line3a.jpg",
+    "ground_truth_class": "LINE",
+    "ground_truth_equation": "y = 2x + 3",
+    "axes": {
+      "x_min": 0,
+      "x_max": 1,
+      "y_min": 0,
+      "y_max": 5
+    },
+    "quad_method": "auto_quad",
+    "detected_shape": "LINE",
+    "best_model": "line",
+    "equation": "y = 2.003 x + 2.998",
+    "rmse": 0.017613830757486022,
+    "r2": 0.9989923968923167,
+    "line_rmse": 0.017613830757486022,
+    "arc_length": 21.062171034441494,
+    "params_fitted": {
+      "m": 2.0029776267967625,
+      "b": 2.9978250595052662
+    },
+    "class_correct": true,
+    "param_errors": {
+      "m_pct": 0.14888133983812502,
+      "b_abs": 0.002174940494733768
+    },
+    "seg_length": 2.1371303642968735
+  },
+  {
+    "file": "sinusoid1a.jpg",
+    "ground_truth_class": "SINUSOID",
+    "ground_truth_equation": "y = 2 sin(5x + 0)",
+    "axes": {
+      "x_min": 0,
+      "x_max": 1,
+      "y_min": -2,
+      "y_max": 2
+    },
+    "quad_method": "auto_quad",
+    "detected_shape": "SINUSOID",
+    "best_model": "sinusoid",
+    "equation": "y = 1.822 sin(5.819 x + -0.5112) + 0.0003132",
+    "rmse": 0.04687635580357961,
+    "r2": 0.998415857605425,
+    "line_rmse": 0.11078856279847742,
+    "arc_length": 20.428564337769636,
+    "params_fitted": {
+      "A": 1.8224308850875268,
+      "omega": 5.818775958388051,
+      "phi": -0.5112014992409274,
+      "C": 0.00031321488777772766
+    },
+    "class_correct": true,
+    "param_errors": {
+      "A_pct": 8.87845574562366,
+      "omega_pct": 16.375519167761023,
+      "phi_rad": 0.5112014992409275
+    }
+  },
+  {
+    "file": "sinusoid2a.jpg",
+    "ground_truth_class": "SINUSOID",
+    "ground_truth_equation": "y = 3 sin(9x - 4)",
+    "axes": {
+      "x_min": 0,
+      "x_max": 1,
+      "y_min": -3,
+      "y_max": 3
+    },
+    "quad_method": "auto_quad",
+    "detected_shape": "SINUSOID",
+    "best_model": "sinusoid",
+    "equation": "y = 2.711 sin(10.46 x + 1.139) + 0.004437",
+    "rmse": 0.07934487914838312,
+    "r2": 0.9978099439106078,
+    "line_rmse": 0.1585668712926777,
+    "arc_length": 36.62437056811899,
+    "params_fitted": {
+      "A": 2.710568155179368,
+      "omega": 10.45561305022853,
+      "phi": 1.138915779655003,
+      "C": 0.004437072054248148
+    },
+    "class_correct": true,
+    "param_errors": {
+      "A_pct": 9.647728160687736,
+      "omega_pct": 16.17347833587256,
+      "phi_rad": 1.1442695275245836
+    }
+  },
+  {
+    "file": "sinusoid3a.jpg",
+    "ground_truth_class": "SINUSOID",
+    "ground_truth_equation": "y = 2.3 sin(3x + 7)",
+    "axes": {
+      "x_min": 0,
+      "x_max": 1,
+      "y_min": -1.5,
+      "y_max": 2.5
+    },
+    "quad_method": "auto_quad",
+    "detected_shape": "SINUSOID",
+    "best_model": "sinusoid",
+    "equation": "y = 2.112 sin(3.222 x + 0.6436) + 0.2029",
+    "rmse": 0.02542444725771314,
+    "r2": 0.999464911879863,
+    "line_rmse": 0.5074480839307791,
+    "arc_length": 15.402326718373505,
+    "params_fitted": {
+      "A": 2.111929836914264,
+      "omega": 3.222275610985357,
+      "phi": 0.6436111547678035,
+      "C": 0.2029467997243439
+    },
+    "class_correct": true,
+    "param_errors": {
+      "A_pct": 8.176963612423295,
+      "omega_pct": 7.40918703284524,
+      "phi_rad": 0.07320353805260993
+    }
+  },
+  {
+    "file": "quadratic1a.jpg",
+    "ground_truth_class": "QUADRATIC",
+    "ground_truth_equation": "y = x^2 + 2x + 3",
+    "axes": {
+      "x_min": 0,
+      "x_max": 1,
+      "y_min": 3,
+      "y_max": 6
+    },
+    "quad_method": "auto_quad",
+    "detected_shape": "QUADRATIC",
+    "best_model": "quadratic",
+    "equation": "y = 0.9974 x^2 + 1.994 x + 3.006",
+    "rmse": 0.012507478752996801,
+    "r2": 0.9997818040674306,
+    "line_rmse": 0.0717477581652058,
+    "arc_length": 13.472172596218112,
+    "params_fitted": {
+      "a": 0.9973832988237198,
+      "b": 1.9942325294269678,
+      "c": 3.0058595958714673
+    },
+    "class_correct": true,
+    "param_errors": {
+      "a_pct": 0.26167011762802117,
+      "b_pct": 0.2883735286516087,
+      "c_pct": 0.1953198623822446
+    }
+  },
+  {
+    "file": "quadratic2a.jpg",
+    "ground_truth_class": "QUADRATIC",
+    "ground_truth_equation": "y = 5x^2 + 8x + 13",
+    "axes": {
+      "x_min": 0,
+      "x_max": 1,
+      "y_min": 12,
+      "y_max": 26
+    },
+    "quad_method": "auto_quad",
+    "detected_shape": "QUADRATIC",
+    "best_model": "quadratic",
+    "equation": "y = 4.989 x^2 + 7.98 x + 13.02",
+    "rmse": 0.05727217771000904,
+    "r2": 0.9997584861680308,
+    "line_rmse": 0.36137702034825697,
+    "arc_length": 70.41634470960268,
+    "params_fitted": {
+      "a": 4.9891544883882855,
+      "b": 7.9801131260715445,
+      "c": 13.020679660426149
+    },
+    "class_correct": true,
+    "param_errors": {
+      "a_pct": 0.21691023223429085,
+      "b_pct": 0.24858592410569313,
+      "c_pct": 0.15907431097037517
+    }
+  }
+]
