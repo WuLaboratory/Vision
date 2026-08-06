@@ -1,0 +1,65 @@
+{
+  "line1.jpg": {
+    "class": "LINE",
+    "equation": "y = 10x + 1",
+    "axes": {"x_min": 0, "x_max": 1, "y_min": 0, "y_max": 11},
+    "params": {"m": 10, "b": 1},
+    "matlab_comment": "%1 A = 10, B = 1"
+  },
+  "line2.jpg": {
+    "class": "LINE",
+    "equation": "y = 5x + 1.5",
+    "axes": {"x_min": 0, "x_max": 1, "y_min": 0, "y_max": 6.5},
+    "params": {"m": 5, "b": 1.5},
+    "matlab_comment": "%2 A = 5, B = 1.5"
+  },
+  "line3.jpg": {
+    "class": "LINE",
+    "equation": "y = 2x + 3",
+    "axes": {"x_min": 0, "x_max": 1, "y_min": 0, "y_max": 5},
+    "params": {"m": 2, "b": 3},
+    "matlab_comment": "%3 A = 2, B = 3"
+  },
+  "sinusoid1.jpg": {
+    "class": "SINUSOID",
+    "equation": "y = 2 sin(5x + 0)",
+    "axes": {"x_min": 0, "x_max": 1, "y_min": -2, "y_max": 2},
+    "params": {"A": 2, "omega": 5, "phi": 0, "C": 0},
+    "matlab_comment": "%1 AA = 2, w = 5, C = 0"
+  },
+  "sinusoid2.jpg": {
+    "class": "SINUSOID",
+    "equation": "y = 3 sin(9x - 4)",
+    "axes": {"x_min": 0, "x_max": 1, "y_min": -3, "y_max": 3},
+    "params": {"A": 3, "omega": 9, "phi": -4, "C": 0},
+    "matlab_comment": "%2 AA = 3, w = 9, C = -4"
+  },
+  "sinusoid3.jpg": {
+    "class": "SINUSOID",
+    "equation": "y = 2.3 sin(3x + 7)",
+    "axes": {"x_min": 0, "x_max": 1, "y_min": -1.5, "y_max": 2.5},
+    "params": {"A": 2.3, "omega": 3, "phi": 7, "C": 0},
+    "matlab_comment": "%3 AA = 2.3, w = 3, C = 7"
+  },
+  "quadratic1.jpg": {
+    "class": "QUADRATIC",
+    "equation": "y = x^2 + 2x + 3",
+    "axes": {"x_min": 0, "x_max": 1, "y_min": 3, "y_max": 6},
+    "params": {"a": 1, "b": 2, "c": 3},
+    "matlab_comment": "%1 AAA = 1, BBB = 2, CCC = 3"
+  },
+  "quadratic2.jpg": {
+    "class": "QUADRATIC",
+    "equation": "y = 5x^2 + 8x + 13",
+    "axes": {"x_min": 0, "x_max": 1, "y_min": 12, "y_max": 26},
+    "params": {"a": 5, "b": 8, "c": 13},
+    "matlab_comment": "%2 AAA = 5, BBB = 8, CCC = 13"
+  },
+  "line1a.jpg": {"inherits": "line1.jpg"},
+  "line3a.jpg": {"inherits": "line3.jpg"},
+  "sinusoid1a.jpg": {"inherits": "sinusoid1.jpg"},
+  "sinusoid2a.jpg": {"inherits": "sinusoid2.jpg"},
+  "sinusoid3a.jpg": {"inherits": "sinusoid3.jpg"},
+  "quadratic1a.jpg": {"inherits": "quadratic1.jpg"},
+  "quadratic2a.jpg": {"inherits": "quadratic2.jpg"}
+}
