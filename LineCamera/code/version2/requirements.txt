@@ -1,0 +1,4 @@
+# Versions used for the October 2026 revision checks. Python 3.12.6.
+# matplotlib is not required to run the camera application.
+opencv-python==5.0.0
+numpy==2.4.6
